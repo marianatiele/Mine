@@ -1,0 +1,126 @@
+
+/* Responsividade*/
+
+@media screen  and (min-width: 1200px) {
+    .menu-hamburger{
+        display: none;
+    }
+} 
+  
+
+
+@media (max-width: 770px){
+    .menu-hamburger{
+        display:flex;
+        float: right;
+        margin-right: 25px;
+    }
+    .nav-list{
+        display: none;
+    }
+   
+    
+
+    
+}
+    
+
+
+
+/* 
+@media (min-width: 750px){
+    .menu-hamburger{
+        display: none;
+    }
+    .menu{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+
+    }
+    .menu li a{
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .menu{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        /* background-image: url(../img/Gradient.png);    
+    }
+    .logo{
+        display: inline-block;
+    }
+    .menu-hamburger{
+        display: block;
+        float: right;
+        margin: 15px;
+        width: 40px;
+        height: 40px;  
+      }
+    body{
+        overflow-x: hidden;
+        background-image: none;
+        margin: 0px;
+        width: 100%;
+        height:500px;
+        
+    }
+
+    .container{
+        width: 350px;
+        height: 350px;
+        background-color: #111010b0;
+        border-radius: 5%;
+    }
+    #img-conteiner{
+        width: 30px;
+        height: 30px;
+    }
+    #email,
+    #password{
+    margin: 5px;
+    background-color: #000000b0;
+    width: 100%;
+    height: 30px;
+}
+
+button{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px; 
+   
+}
+ 
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        
+    }
+   
+    .img-footer img{
+        width: 20px;
+        height: 20px;
+    }
+    
+} */

@@ -1,0 +1,10 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway:wght@100;700&display=swap');
+</style>
+
+Kufam
+
+Cores 
+background: #33E29A;
+
+digite link e o vs code lhe ajuda  <link rel="stylesheet" href="style.css">

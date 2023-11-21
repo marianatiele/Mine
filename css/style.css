@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kufam', sans-serif;
+    list-style: none;
+    text-decoration: none;    
+}
+:root{
+    --buton: #33E29A;
+}
+/* html{
+    border: 2px solid rgb(255, 0, 55);
+
+} */
+body{
+    height:1000px;
+    background-image: url(../img/Background.png); 
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+}
+
+header{
+    background-image: linear-gradient(to top, #12121200, #121212b3, #121212);
+    height: 150px;
+    width: 100%;
+    margin-bottom: 2%;
+    
+}
+.logo-img{
+    align-items: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 40px;   
+}
+
+.logo{
+    height: 35px;
+    display: flex; 
+    justify-content: center;
+
+}
+#img-logo{
+    width: 95px;
+    height: 50px;
+}
+
+.menu{
+    width: 100%;
+    padding: 45px;
+    display: flex;
+    justify-content: space-around; 
+    width:100%;
+    height: 80px;
+  
+}
+span{
+    text-align: center;
+}
+.menu  li{
+    display: inline;
+    margin: 0 25px;
+    align-items: center;
+}
+
+a {
+    font-size: 18px;
+    color: #fff;
+       
+}
+a:hover{
+    padding: 10px;
+    color: var(--buton);
+    background-color: #5f5d5dcb;
+    border-radius: 5%;
+}
+
+
+input:focus,
+input:hover{
+    outline: none;
+    border-color: var(--buton);
+    /*box-shadow: 0 0 0 0.3124rem #263442; */
+}
+/* .activation, 
+a:active{
+    padding: 10px;
+    background-color: #aba3a3cb;
+} */
+
+/*Principal */
+main{
+
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 17.2%;
+}
+.container{
+  
+    width: 450px;
+    height: 450px;
+    background-color: #262626b0;
+    border-radius: 5%;
+}
+
+.container-logo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+#img-conteiner{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.formulario{
+    margin: 30px;   
+}
+#lembrarCaixa{
+    margin: 10px;
+}
+#email,
+#password{
+    margin: 10px;
+    background-color: #f3ededb0;
+    width: 100%;
+    height: 40px;
+}
+
+button{
+    margin: 10px;
+    width: 100%;
+    height: 45px; 
+    background-color: var(--buton);
+    color: #fff;
+
+}
+.esqueceu{
+    color: var(--buton);
+    width: 100%;
+    /* margin: 10px; */
+    text-align: center;
+}
+.cor-nomes{
+    color: #fff;
+}
+
+/*Footer */
+footer{
+    width: 100%;
+    background-image: linear-gradient(to top, #121212, #121212b3, #12121200);
+    height: 150px;
+    width: 100%;
+    /* display: flex;  */
+    display: inline-flex;
+    justify-content: center; 
+    /* display: grid;
+    grid-template-columns: repeat(1, minmax(30px, 1fr)); */
+}
+.footer{
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+
